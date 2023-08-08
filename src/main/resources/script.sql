@@ -1,8 +1,6 @@
 CREATE DATABASE  IF NOT EXISTS `game_directory`;
 USE `game_directory`;
 
-# DROP TABLE IF EXISTS `employee`;
-
 CREATE TABLE `games` (
                          `id` int NOT NULL AUTO_INCREMENT,
                          `game_name` varchar(45) DEFAULT NULL,
