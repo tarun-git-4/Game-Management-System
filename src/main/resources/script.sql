@@ -9,7 +9,7 @@ CREATE TABLE `games` (
                          PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
-INSERT INTO `student` VALUES
+INSERT INTO `games` VALUES
                           (1,'Counter Strike: 1.6',1999,9.6),
                           (2,'Elden Ring',2022,7.9);
 
