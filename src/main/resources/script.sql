@@ -1,10 +1,6 @@
 CREATE DATABASE  IF NOT EXISTS `game_directory`;
 USE `game_directory`;
 
---
--- Table structure for table `employee`
---
-
 # DROP TABLE IF EXISTS `employee`;
 
 CREATE TABLE `games` (
@@ -14,10 +10,6 @@ CREATE TABLE `games` (
                          `rating` varchar(45) DEFAULT NULL,
                          PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
-
---
--- Data for table `employee`
---
 
 INSERT INTO `student` VALUES
                           (1,'Counter Strike: 1.6',1999,9.6),
